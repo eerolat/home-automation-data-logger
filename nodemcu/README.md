@@ -3,7 +3,7 @@
 This application runs on a NodeMcu + DS18B20. It reads the sensor and writes the data every 30 min into your InfluxDB.
 
 - nodemcu_thermometer.ino - Thermometer
-- nodemcu_humidity.ino - Humidity sensor
+- nodemcu_humidity_thermometer.ino - Thermometer and humidity sensor
 
 ## Getting Started
 

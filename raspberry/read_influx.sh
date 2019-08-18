@@ -109,29 +109,29 @@ gnuplot /home/pi/Documents/Temperature/plotinfilelibraryhumidity.dat
 
 # upload files
 
-sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturebedroom_currenttemp.txt username@x.y.z.d:/mnt/HD/HD_a2/ffp/opt/srv/www/pages/temp/temperature_bedroom.txt
-sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturebedroom_currenttime.txt username@x.y.z.d:/mnt/HD/HD_a2/ffp/opt/srv/www/pages/temp/temperature_time_bedroom.txt
-sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturebedroom.log username@x.y.z.d:/mnt/HD/HD_a2/ffp/opt/srv/www/pages/temp/temperature_bedroom.log
-sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturebedroomhistory.gif username@x.y.z.d:/mnt/HD/HD_a2/ffp/opt/srv/www/pages/temp/temperature_bedroom_history.gif
+sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturebedroom_currenttemp.txt username@x.y.z.d:/www/temperature_bedroom.txt
+sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturebedroom_currenttime.txt username@x.y.z.d:/www/temperature_time_bedroom.txt
+sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturebedroom.log username@x.y.z.d:/www/temperature_bedroom.log
+sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturebedroomhistory.gif username@x.y.z.d:/www/temperature_bedroom_history.gif
 
-sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturegarage_currenttemp.txt username@x.y.z.d:/mnt/HD/HD_a2/ffp/opt/srv/www/pages/temp/temperature_garage.txt
-sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturegarage_currenttime.txt username@x.y.z.d:/mnt/HD/HD_a2/ffp/opt/srv/www/pages/temp/temperature_time_garage.txt
-sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturegarage.log username@x.y.z.d:/mnt/HD/HD_a2/ffp/opt/srv/www/pages/temp/temperature_garage.log
-sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturegaragehistory.gif username@x.y.z.d:/mnt/HD/HD_a2/ffp/opt/srv/www/pages/temp/temperature_garage_history.gif
+sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturegarage_currenttemp.txt username@x.y.z.d:/www/temperature_garage.txt
+sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturegarage_currenttime.txt username@x.y.z.d:/www/temperature_time_garage.txt
+sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturegarage.log username@x.y.z.d:/www/temperature_garage.log
+sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturegaragehistory.gif username@x.y.z.d:/www/temperature_garage_history.gif
 
-sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturelivingroom_currenttemp.txt username@x.y.z.d:/mnt/HD/HD_a2/ffp/opt/srv/www/pages/temp/temperature_livingroom.txt
-sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturelivingroom_currenttime.txt username@x.y.z.d:/mnt/HD/HD_a2/ffp/opt/srv/www/pages/temp/temperature_time_livingroom.txt
-sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturelivingroom.log username@x.y.z.d:/mnt/HD/HD_a2/ffp/opt/srv/www/pages/temp/temperature_livingroom.log
-sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturelivingroomhistory.gif username@x.y.z.d:/mnt/HD/HD_a2/ffp/opt/srv/www/pages/temp/temperature_livingroom_history.gif
+sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturelivingroom_currenttemp.txt username@x.y.z.d:/www/temperature_livingroom.txt
+sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturelivingroom_currenttime.txt username@x.y.z.d:/www/temperature_time_livingroom.txt
+sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturelivingroom.log username@x.y.z.d:/www/temperature_livingroom.log
+sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturelivingroomhistory.gif username@x.y.z.d:/www/temperature_livingroom_history.gif
 
-sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturelibrary_currenttemp.txt username@x.y.z.d:/mnt/HD/HD_a2/ffp/opt/srv/www/pages/temp/temperature_library.txt
-sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturelibrary_currenttime.txt username@x.y.z.d:/mnt/HD/HD_a2/ffp/opt/srv/www/pages/temp/temperature_time_library.txt
-sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturelibrary.log username@x.y.z.d:/mnt/HD/HD_a2/ffp/opt/srv/www/pages/temp/temperature_library.log
-sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturelibraryhistory.gif username@x.y.z.d:/mnt/HD/HD_a2/ffp/opt/srv/www/pages/temp/temperature_library_history.gif
+sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturelibrary_currenttemp.txt username@x.y.z.d:/www/temperature_library.txt
+sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturelibrary_currenttime.txt username@x.y.z.d:/www/temperature_time_library.txt
+sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturelibrary.log username@x.y.z.d:/www/temperature_library.log
+sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperaturelibraryhistory.gif username@x.y.z.d:/www/temperature_library_history.gif
 
-sshpass -p "passwd" scp /home/pi/Documents/Temperature/humiditylibrary_currenthumid.txt username@x.y.z.d:/mnt/HD/HD_a2/ffp/opt/srv/www/pages/temp/humidity_library.txt
-sshpass -p "passwd" scp /home/pi/Documents/Temperature/humiditylibrary_currenttime.txt username@x.y.z.d:/mnt/HD/HD_a2/ffp/opt/srv/www/pages/temp/hunidity_time_library.txt
-sshpass -p "passwd" scp /home/pi/Documents/Temperature/humiditylibrary.log username@x.y.z.d:/mnt/HD/HD_a2/ffp/opt/srv/www/pages/temp/humidity_library.log
-sshpass -p "passwd" scp /home/pi/Documents/Temperature/humiditylibraryhistory.gif username@x.y.z.d:/mnt/HD/HD_a2/ffp/opt/srv/www/pages/temp/humidity_library_history.gif
+sshpass -p "passwd" scp /home/pi/Documents/Temperature/humiditylibrary_currenthumid.txt username@x.y.z.d:/www/humidity_library.txt
+sshpass -p "passwd" scp /home/pi/Documents/Temperature/humiditylibrary_currenttime.txt username@x.y.z.d:/www/humidity_time_library.txt
+sshpass -p "passwd" scp /home/pi/Documents/Temperature/humiditylibrary.log username@x.y.z.d:/www/humidity_library.log
+sshpass -p "passwd" scp /home/pi/Documents/Temperature/humiditylibraryhistory.gif username@x.y.z.d:/www/humidity_library_history.gif
 
-sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperatureinaverage_currenttemp.txt username@x.y.z.d:/mnt/HD/HD_a2/ffp/opt/srv/www/pages/temp/temperature_inaverage.txt
+sshpass -p "passwd" scp /home/pi/Documents/Temperature/temperatureinaverage_currenttemp.txt username@x.y.z.d:/www/temperature_inaverage.txt

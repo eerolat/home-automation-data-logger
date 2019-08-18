@@ -10,8 +10,6 @@
 
 ESP8266WiFiMulti WiFiMulti;
 
-// OneWire DS18S20, DS18B20, DS1822 Temperature Example
-// http://www.esp8266learning.com/wemos-mini-ds18b20-temperature-sensor-example.php
 
 OneWire  ds(D4);  // on pin D4 (a 4.7K resistor is necessary)
 
@@ -111,8 +109,6 @@ void loop() {
             String postContent = "temp,dev=d1 value=" + String(temp, 2);
 
             int httpCode = http.POST(postContent);
-
-            // nah, I don't care
 
             http.end();
 

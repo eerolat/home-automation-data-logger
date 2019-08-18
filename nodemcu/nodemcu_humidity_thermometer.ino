@@ -80,8 +80,6 @@ void loop() {
 
             int httpCode = http.POST(postContent);
 
-            // nah, I don't care
-
             http.end();
 
         }

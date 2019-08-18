@@ -11,7 +11,6 @@ curl -G 'http://localhost:8086/query?db=humidity&&pretty=true' --data-urlencode 
 jq -rM '.results[].series[].values[][0]' /home/pi/Documents/Temperature/temperaturebedroom_newest.json > /home/pi/Documents/Temperature/temperaturebedroom_currenttime_temp.txt
 date -f /home/pi/Documents/Temperature/temperaturebedroom_currenttime_temp.txt "+%F %T" | tr -d '\n' > /home/pi/Documents/Temperature/temperaturebedroom_currenttime.txt 
 rm /home/pi/Documents/Temperature/temperaturebedroom_currenttime_temp.txt
-#echo $(printf "%0.2f\n" $(jq -M '.results[].series[].values[][1]' /home/pi/Documents/Temperature/temperaturebedroom_newest.json)) > /home/pi/Documents/Temperature/temperaturebedroom_currenttemp.txt
 sensor_temp=$(jq -M '.results[].series[].values[][1]' /home/pi/Documents/Temperature/temperaturebedroom_newest.json)
 sensor_calibr=-0.44
 real_temp=$(echo $sensor_temp $sensor_calibr | awk '{print $1 + $2}' | awk '{ printf("%.4g\n", $1) }') 

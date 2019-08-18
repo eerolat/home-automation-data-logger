@@ -1,10 +1,13 @@
 # Raspberry Pi script
 
-This script runs on your Raspberry Pi and publishes your data on a web server
+These scripts runs on your Raspberry Pi and publish your data on a web server.
+
+-read_ds18b20.sh - Reads a local ds18b20 one-wire sensor connected to your Raspberry Pi
+-read_influx.sh - Reads sensor data from your InfluxDB
 
 ## Getting Started
 
-Use cron to schedule this script.
+Use cron to schedule these scripts.
 
 ## Authors
 

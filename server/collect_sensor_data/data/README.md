@@ -1,6 +1,6 @@
 # Data file directory
 
-This directory is the directory, where the script produces your log files, and creates text data files that will publishes on your web/ FTP server.
+This is the directory, where the script produces your log files, and creates text data files that will publishes on your web/ FTP server.
 
 ## Authors
 

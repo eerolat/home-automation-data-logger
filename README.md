@@ -1,8 +1,16 @@
 # Home Automation Data Logger
 
-Server that runs on Raspberry Pi.
-ds18b20 one-wire sensor for local data logging. 
-WeMos IoT sensors for remote data logging.
+This application collects home automation IoT data, and publishes it on a WWW/ file server.
+
+## Architecture
+
+- Server that runs on a Raspberry Pi.
+- ds18b20 one-wire sensor for local data logging. 
+- WeMos IoT sensors for remote data logging.
+
+## Not included
+
+- WWW user interface.
 
 ## Authors
 

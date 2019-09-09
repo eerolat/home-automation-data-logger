@@ -7,6 +7,7 @@ This Python scripts runs on your server (Raspberry Pi or similar), reads a local
 Edit:
 
 - Install and configure your Digitemp.
+- The script assumes InfluxDB databases called "temperature". If your database has a different names update the script.
 
 Use cron to schedule the script:
 

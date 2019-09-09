@@ -50,4 +50,7 @@ def processsensor(database, sensor_id, sensor_location="Unknown", calibration=0)
     client.write_points(points)
 
 
-processsensor("-t","d5")
+#
+# Update my_sensor_id
+#
+processsensor("-t","my_sensor_id")

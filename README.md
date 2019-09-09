@@ -1,6 +1,6 @@
 # Home Automation Data Logger
 
-This application collects home automation IoT data, and publishes it on a WWW/ file server.
+This application collects home automation IoT data, and publishes it on a web / file server.
 
 ## Architecture
 
@@ -10,7 +10,7 @@ This application collects home automation IoT data, and publishes it on a WWW/ f
 
 ## Not included
 
-- WWW user interface.
+- Web user interface.
 
 ## Authors
 

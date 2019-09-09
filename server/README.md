@@ -1,4 +1,4 @@
-# Raspberry Pi script
+# Server scripts
 
 These Python scripts run on your server (Raspberry Pi or similar) and publish the data on a web server.
 

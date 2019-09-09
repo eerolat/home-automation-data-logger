@@ -20,11 +20,6 @@ Use cron to schedule the scripts:
 - collect_sensor_data/collectsensors.py
 - read_digitemp/read_digitemp.py
 
-The scripts use:
-
-- digitemp_DS9097 https://www.digitemp.com/
-- gnuplot http://www.gnuplot.info/
-
 ## File locations
 
 - collect_sensor_data/data - Logs and text files that can be used on a web server.
